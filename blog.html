@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><body>
+<h1>Blog & Resources</h1><div id="posts"></div>
+<script>
+fetch('/blog/post1.md')
+  .then(res=>res.text())
+  .then(md=>document.getElementById('posts').innerHTML=md);
+</script>
+</body></html>

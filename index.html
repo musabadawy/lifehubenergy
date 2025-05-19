@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- existing head content -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header role="banner">
+    <div class="hero">
+      <video autoplay muted loop class="hero-video" poster="images/hero-poster.jpg">
+        <source src="videos/hero-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-content">
+        <h1>LifeHubEnergy</h1>
+        <p class="slogan">Sustainable Power for Tomorrow</p>
+        <p class="subheadline">Innovative biogas and OBM treatment solutions</p>
+        <button class="cta" onclick="location.href='#overview'">Explore Our Solutions</button>
+      </div>
+    </div>
+    <div class="toggles">
+      <button id="themeToggle" aria-label="Toggle Dark Mode">🌓</button>
+      <select id="langSwitch" aria-label="Select Language">
+        <option value="en">EN</option>
+        <option value="ar">AR</option>
+      </select>
+    </div>
+    <!-- rest of nav -->
+  </header>
+  <!-- existing main content -->
+  <!-- Blog & Resources link -->
+  <section id="blog">
+    <h2>Blog & Resources</h2>
+    <ul id="postList"></ul>
+  </section>
+  <!-- Chart section -->
+  <section id="analytics">
+    <h2>Performance Metrics</h2>
+    <canvas id="metricChart"></canvas>
+  </section>
+  <!-- Team & Partners link -->
+  <footer>
+    <!-- live chat embed -->
+    <script>
+      window.$crisp=[];window.CRISP_WEBSITE_ID="your-crisp-id";
+      (function(){d=document;s=d.createElement("script");
+      s.src="https://client.crisp.chat/l.js";s.async=1;
+      d.getElementsByTagName("head")[0].appendChild(s);})();
+    </script>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

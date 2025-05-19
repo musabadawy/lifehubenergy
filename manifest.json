@@ -1,0 +1,12 @@
+{
+  "name": "LifeHubEnergy",
+  "short_name": "LHE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#004466",
+  "theme_color": "#004466",
+  "icons": [
+    { "src": "icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
